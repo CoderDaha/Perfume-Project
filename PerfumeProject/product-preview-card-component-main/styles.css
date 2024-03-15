@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+body{
+    background-color: #F2EBE3;
+}
+.container{
+display: flex;
+justify-content: center;
+padding-top: 150px;
+flex-direction: row-reverse;
+margin-right: auto;
+margin-left: auto;
+;
+
+
+    
+}
+
+img{
+width: 300px;
+height: 435px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+
+}
+
+.perfume-container{
+    background-color: white;
+    width: 300px;
+    height: 425px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 10px;
+    
+    
+    
+}
+#title {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 39px;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: -10px;
+
+    
+}
+
+#perfume{
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    font-weight: 400px;
+
+    
+    
+}
+
+p {
+    font-family:'Montserrat';
+
+    
+}
+
+
+.perfume-container button {
+    background-color: #3C8067;
+    color: white;
+    width: 150px;
+    height: 47px;
+    border-radius: 8px;
+
+}
+
+
+.prices p {
+    font-family: 'Fraunces';
+    color:#3C8067 ;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.prices span {
+    color: black;
+    font-size: 12px;
+    font-weight: 450;
+    text-decoration: line-through;
+}
+
+button {
+    align-items: right;
+}
+
+@media (max-width: 568px) {
+    .perfume-img {
+        display: none;
+    }
+    .mobile-photo {
+        display: block;
+    }
+    .perfume-container{
+        background-color: white;
+        width: 300px;
+        height: 450px;
+        padding-bottom: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        
+    }
+
+    
+
+        
+        
+    
+
+}
+
+
+
+
+    
+
+
+
+
